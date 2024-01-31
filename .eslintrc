@@ -1,0 +1,15 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "quotes": ["error", "single"], // Cambiar comillas dobles por simples
+    "semi": ["error", "never"], // No agregar punto y coma al final de la línea
+    "no-unused-vars": "error", // Mostrar errores por variables no utilizadas
+    "no-undef": "error" // Mostrar errores por variables no declaradas
+  }
+}
